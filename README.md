@@ -59,8 +59,7 @@ The goal of this project was to design a responsive, visually appealing, and fun
 ---
 
 ## 🔹 Live Demo
-🔗https://github.com/Soha456929/Soha_Portfolio.git
-
+🔗https://soha456929.github.io/Soha_Portfolio/
 ---
 
 ## 🔹 Folder Structure
