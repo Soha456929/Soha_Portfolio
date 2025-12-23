@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-eqiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-wiidth", initial-scale="1.0">
+   <title>Personal Portfolio Website</title>
+   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<body>
+<div id="header">
+   <img src="images/Soha.jpg" alt="Soha">
+    <div class="container">
+      <nav>
+         <div class="logo">Soha.</div>
+         <ul id="sidemenu">
+            <li><a href="#header" >Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+         </ul>
+      </nav>
+      <div class="header-text">
+         <p>UI/Ux Designer</p>
+         <h1>Hi there,</h1>
+         <h2>I'm <span>Soha</span> Chowdhury</h2>
+
+         <h3>A Computer Science student passionate about learning,problem-solving,<br>and creating meaningful digital experiences.</h3>
+      </div>
+      <a href="CV/Soha_Chowdhury_CV.pdf" download class="btn btn-cv">Download CV<i class="fa-solid fa-download"></i></a>
+    </div>
+</div>
+<!----------------about----------- -->
+<div id="about">
+   <div class="container">
+      <div class="row">
+         <div class="about-col-1">
+            <img src="images/About-me.jpg">
+         </div>
+         <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>I'm Soha Chowdhury, a Computer Science student with a passion for UI/Ux design and front-end development.I enjoy creating clean, user-friendly interfaces and turning ideas into meaningful digital experiences.I'm always eager to learn new technologies,improve my skills, and build projects that combine creativity with problem-solving.</p>
+
+            <div class="tab-titles">
+               <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+               <p class="tab-links" onclick="opentab('projects')">Projects</p>
+               <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+               <ul>
+                  <li><span>UI?UX</span><br> Designing Web/App interfaces</li>
+                  <li><span>Web Development</span><br> Web app Development</li>
+                  <li><span>App Development</span><br> Building Android/iOS apps</li>
+               </ul>
+            </div>
+            <div class="tab-contents" id="projects">
+               <ul>
+                  <li><span>C++,QT</span><br> Library Manaegement System</li>
+                  <li><span>C++</span><br> Food Ordering System</li>
+                  <li><span>Vs Code</span><br> Portfolio Website</li>
+                  <li><span>Figma</span><br> Portfolio Website Design</li>
+               </ul>
+            </div>
+            <div class="tab-contents" id="education">
+               <ul>
+                  <li><span>2024-2028</span><br> B.Sc in Computer Science at International Islamic University of Chittagong</li>
+                  <li><span>2023</span><br> Completed Higher Secondary Certificate(HSC) from Chattogram Cantonment Public College</li>
+                  <li><span>2021</span><br> Completed Secondary School Certificate(SSC) from Chattogram Cantonment Public College</li>
+               </ul>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+<!-------------services-------------- -->
+<div id="services">
+   <div class="container">
+      <h1 class="sub-title">My Services</h1>
+      <div class="services-list">
+         <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Design</h2>
+            <p>Designing clean, responsive websites using HTML and CSS with a focus on modern layouts and usability.</p>
+            <a href="#">Learn more</a>
+         </div>
+         <div>
+            <i class="fa-sharp fa-solid fa-crop-simple"></i>
+            <h2>UI/UX Design</h2>
+            <p>Creating simple and user-friendly interface designs for web and desktop applications.</p>
+            <a href="#">Learn more</a>
+         </div>
+         <div>
+            <i class="fa-brands fa-app-store"></i>
+            <h2>Desktop App Development</h2>
+            <p>Developing functional desktop applications using C++ and Qt, including academic and mini projects.</p>
+            <a href="#">Learn more</a>
+         </div>
+      </div>
+   </div>
+</div>
+<!-----------portfolio---------- -->
+<div id="portfolio">
+   <div class="container">
+      <h1 class="sub-title">My Work</h1>
+      <div class="work-list">
+         <div class="work">
+            <img src="images/Work-1.jpg">
+            <div class="layer">
+               <h3>Library Management System</h3>
+               <p>A C++ and Qt based application that manages book records, student registration, and borrowing/returning of books with a simple and user-friendly interface.</p>
+               <a href="#"><i class="fa-solid fa-link"></i></a>
+            </div> 
+         </div>
+         <div class="work">
+            <img src="images/Work-2.jpg"> 
+             <div class="layer">
+               <h3>Food Ordering System</h3>
+               <p>A C++ based application that allows users to place food orders, view menus, and manage orders efficiently through a simple and organized system.</p>
+               <a href="#"><i class="fa-solid fa-link"></i></a>
+            </div> 
+         </div>
+         <div class="work">
+            <img src="images/Work-8.jpg"> 
+             <div class="layer">
+               <h3>Doctor Appointment System</h3>
+               <p>A simple system that allows patients to book appointments and doctors to manage schedules efficiently.</p>
+               <a href="#"><i class="fa-solid fa-link"></i></a>
+            </div> 
+         </div>
+      </div>
+      <a href="#" class="btn">See more</a>
+   </div>
+</div>
+<!------------contact--------- -->
+<div id="contact">
+   <div class="container">
+      <div class="row">
+         <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-solid fa-paper-plane"></i>sohachowdhury57@gmail.com</p>
+            <p><i class="fa-solid fa-square-phone-flip"></i>01737549187</p>
+            <div class="social-icons">
+               <a href="https://www.facebook.com/share/1Gx62E7YKZ/"><i class="fa-brands fa-facebook"></i></a>
+               <a href=" https://www.instagram.com/sohachowdhury59"><i class="fa-brands fa-instagram"></i></a>
+               <a href="https://github.com/Soha456929"><i class="fa-brands fa-github"></i></a>
+            </div>
+         </div>
+         <div class="contact-right">
+            <form name="submit-to-google-sheet">
+               <input type="text" name="Name" placeholder="Your Name" required>
+               <input type="email" name="Email" placeholder="Your Email" required>
+               <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+               <button type="submit" class="btn btn2">Submit</button>
+            </form>
+
+            <span id="msg"></span>
+         </div>
+      </div>
+   </div>
+</div>
+<script>
+
+   var tablinks = document.getElementsByClassName("tab-links");
+   var tabcontents = document.getElementsByClassName("tab-contents");
+
+   function opentab(tabname){
+      for(tablink of tablinks){
+         tablink.classList.remove("active-link");
+      }
+      for(tabcontent of tabcontents){
+         tabcontent.classList.remove("active-tab");
+      }
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab");
+   }
+</script>
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbx0sq_PnaqcMV4kzFpAtXsQQn15uNzIW2LqSkYjp-s10OQnO_FdelQFyKYCFXCpGXi5Iw/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+
+    const formData = new FormData(form)  // ✅ capture data FIRST
+
+    fetch(scriptURL, {
+      method: 'POST',
+      body: formData
+    })
+    .then(response => {
+      msg.innerHTML = "Message sent successfully ✔"
+      form.reset()   // ✅ reset AFTER sending
+      setTimeout(() => {
+        msg.innerHTML = ""
+      }, 4000)
+    })
+    .catch(error => {
+      msg.innerHTML = "Something went wrong"
+      console.error('Error!', error.message)
+    })
+  })
+  
+</script>
+</body>
+</html>
