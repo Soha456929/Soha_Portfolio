@@ -184,15 +184,15 @@
   form.addEventListener('submit', e => {
     e.preventDefault()
 
-    const formData = new FormData(form)  // ✅ capture data FIRST
+    const formData = new FormData(form) 
 
     fetch(scriptURL, {
       method: 'POST',
       body: formData
     })
     .then(response => {
-      msg.innerHTML = "Message sent successfully ✔"
-      form.reset()   // ✅ reset AFTER sending
+      msg.innerHTML = "Message sent successfully "
+      form.reset()   
       setTimeout(() => {
         msg.innerHTML = ""
       }, 4000)
